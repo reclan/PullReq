@@ -21,5 +21,13 @@ namespace PullReq.Test
 
             Assert.Equal(42, god.SuperMethod());
         }
+
+        [Fact]
+        public void Test3()
+        {   
+            IGodClass god = new GodClass();
+
+            Assert.Null(god.Zzz());
+        }
     }
 }
