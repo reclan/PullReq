@@ -29,5 +29,12 @@ namespace PullReq.Test
 
             Assert.Equal(0, god.Yyy());
         }
+        [Fact]
+        public void Test3()
+        {   
+            IGodClass god = new GodClass();
+
+            Assert.Null(god.Zzz());
+        }
     }
 }

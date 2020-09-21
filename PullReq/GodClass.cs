@@ -17,6 +17,8 @@ namespace PullReq
         }
 
         public int Yyy() => 0;
+
+        public object Zzz() => null;
     }
 
     public interface IGodClass
@@ -24,6 +26,9 @@ namespace PullReq
         string Echo( string arg);
         int SuperMethod();
 
+
         int Yyy();
+        object Zzz();
+
     }
 }
