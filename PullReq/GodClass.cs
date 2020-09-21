@@ -16,6 +16,8 @@ namespace PullReq
             return 42;
         }
 
+        public int Yyy() => 0;
+
         public object Zzz() => null;
     }
 
@@ -24,6 +26,9 @@ namespace PullReq
         string Echo( string arg);
         int SuperMethod();
 
+
+        int Yyy();
         object Zzz();
+
     }
 }
