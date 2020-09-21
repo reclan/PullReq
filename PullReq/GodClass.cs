@@ -10,10 +10,16 @@ namespace PullReq
         {
             return arg;
         }
+
+        public int SuperMethod()
+        {
+            return 42;
+        }
     }
 
     public interface IGodClass
     {
         string Echo( string arg);
+        int SuperMethod();
     }
 }
