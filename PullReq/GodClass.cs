@@ -15,11 +15,15 @@ namespace PullReq
         {
             return 42;
         }
+
+        public int Yyy() => 0;
     }
 
     public interface IGodClass
     {
         string Echo( string arg);
         int SuperMethod();
+
+        int Yyy();
     }
 }
